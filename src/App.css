@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.list {
+  column-count: 3;
+  column-width: 33%;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 8px 16px;
+  font-size: 17px;
+  color: #4b4b4b;
+  background-color: #ffffff;
+  border: 1px solid #4b4b4b;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  transition: 0.5s ease;
+  color: #ffffff;
+  background-color: #6d6d6d;
+  border: 1px solid #6d6d6d;
+}
+
+.selected {
+  color: #fff;
+  background-color: #4b4b4b;
+  transition: 0.5s ease;
+}
+
+.project-img {
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
